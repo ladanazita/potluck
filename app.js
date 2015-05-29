@@ -10,7 +10,7 @@ var express = require('express'),
     // body parser gives us post request inside of our request.body.<attribute>
     // gives us POST params in request.body
     bodyParser = require('body-parser'),
-    Dish = require('./dish.js'),
+    Dish = require('./Dish.js'),
 
     // simulate PUT & DELETE
     methodOverride = require('method-override');
